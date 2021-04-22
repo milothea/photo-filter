@@ -18,28 +18,28 @@
     <div class="filters">
       <label>
         Blur:
-        <input name="blur" data-sizing="px" type="range" min="0" max="10" value="0" />
-        <output name="result">0</output>
+        <input class="filters__blur" name="blur" data-sizing="px" type="range" min="0" max="10" value="0" />
+        <output class="filters__blur" name="result">0</output>
       </label>
       <label>
         Invert:
-        <input name="invert" data-sizing="%" type="range" min="0" max="100" value="0" />
-        <output name="result">0</output>
+        <input class="filters__invert" name="invert" data-sizing="%" type="range" min="0" max="100" value="0" />
+        <output class="filters__invert "name="result">0</output>
       </label>
       <label>
         Sepia:
-        <input name="sepia" data-sizing="%" type="range" min="0" max="100" value="0" />
-        <output name="result">0</output>
+        <input class="filters__sepia" name="sepia" data-sizing="%" type="range" min="0" max="100" value="0" />
+        <output class="filters__sepia" name="result">0</output>
       </label>
       <label>
         Saturate:
-        <input name="saturate" data-sizing="%" type="range" min="0" max="200" value="100" />
-        <output name="result">100</output>
+        <input class="filters__saturate" name="saturate" data-sizing="%" type="range" min="0" max="200" value="100" />
+        <output class="filters__saturate" name="result">100</output>
       </label>
       <label>
         Hue rotate:
-        <input name="hue" data-sizing="deg" type="range" min="0" max="360" value="0" />
-        <output name="result">0</output>
+        <input class="filters__hue" name="hue" data-sizing="deg" type="range" min="0" max="360" value="0" />
+        <output class="filters__hue" name="result">0</output>
       </label>
     </div>
     <div class="editor">
@@ -52,17 +52,18 @@
         </label>
         <button class="btn btn-save">Save picture</button>
       </div>
-      <img src="assets/img/img.jpg" alt="image" />
+      <img class="editor__img" src="assets/img/img.jpg" alt="image" />
     </div>
   </main>
   <footer class="footer">
     <div class="footer-container">
-      <a class="github" href="#" target="_blank" rel="noopener noreferrer">github</a>
+      <a class="github" href="https://github.com/milothea" target="_blank" rel="noopener noreferrer">milothea</a>
       <a class="rss" href="https://rs.school/js/" target="_blank" rel="noopener">
         <span class="rss-year">'21</span>
       </a>
     </div>
   </footer>
   <button class="fullscreen openfullscreen"></button>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
